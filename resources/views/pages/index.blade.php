@@ -16,7 +16,7 @@
 			@endif
 			
 			@if (Auth::check())
-			<h3>Hello <strong style="color: #000081;">{{ Auth::user()->name }}</strong></h3>
+			<h3>Hello <strong style="color: #000080;">{{ Auth::user()->name }}</strong></h3>
 			@else
 			<h3>Hello Guest !!! Welcome to Store My Notes</h3>
 			<h4>To get all of the features of Store My Notes, Just create an account and make your private note, public note and so on...
